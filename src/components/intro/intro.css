@@ -121,21 +121,33 @@
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
-        min-height: 100vh;
+        height: 80vh;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .i-name {
+        font-size: 40px;
+    }
+
+    .i-left {
+        display: flex;
+        justify-items: center;
     }
 
     .i-left-wrapper {
         padding: 10px;
+        display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 100%;
         margin: 0px;
     }
 
     .i-title-item {
         padding: 10px auto;
         margin: auto;
+        font-size: 30px;
     }
 
     .i-left-lower-wrapper {
@@ -143,6 +155,6 @@
     }
 
     .i-desc {
-        display: none;
+        font-size: 10px;
     }
 }
