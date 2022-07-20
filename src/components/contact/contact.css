@@ -35,7 +35,7 @@
 .c-title {
     margin-top: 50px;
     font-size: 60px;
-    width: 50%;
+    width: 60%;
     height: 40vh;
 }
 
@@ -100,24 +100,43 @@ button:hover {
 
 @media screen and (max-width: 480px) {
     .c {
-        height: 100vh;
+        min-height: 100vh;
+    }
+
+    .c-bg {
+        min-height: 100vh;
     }
 
     .c-wrapper {
         flex-direction: column;
-        padding: 0 50px;
+        padding: 0px 40px;
     }
 
     .c-title {
         margin-top: 40px;
         font-size: 30px;
+        height: 10vh;
+        width: 80vw;
     }
 
     .c-info {
         margin-top: 0px;
+        height: 10vh;
     }
 
     .c-info-item {
         margin: 20px 0px;
+    }
+
+    .c-left, .c-right {
+        max-height: 100vw;
+    }
+
+    .c-desc {
+        height: 10vh;
+    }
+
+    form {
+        height: 60vw;
     }
 }
