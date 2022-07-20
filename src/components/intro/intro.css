@@ -121,7 +121,7 @@
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
-        height: 80vh;
+        height: 100vh;
         max-width: 100%;
         padding: 20px;
     }
