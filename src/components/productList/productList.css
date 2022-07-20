@@ -1,5 +1,5 @@
 .pl {
-    padding: 50px 100px;
+    /* padding: 50px 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,15 +14,17 @@
 .pl-title {
     font-size: 50px;
     font-weight: 600;
-    margin-top: 50px;
+    /* margin-top: 30px; */
+    height: 5vh;
 }
 
 .pl-desc {
-    margin: 20px 0px;
+    margin: 40px 0px;
+    height: 5vh;
 }
 
 .pl-list {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,8 +39,8 @@
 
 @media screen and (max-width: 480px) {
     .pl {
-        padding: 10px;
-        min-height: 120vh;
+        padding: 10px 10px;
+        height: 120vh;  
     }
 
     .pl-texts {
@@ -47,5 +49,12 @@
 
     .pl-desc {
         display: none;
+    }
+
+    .pl-title {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
