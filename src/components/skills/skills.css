@@ -36,9 +36,6 @@
 
 .s-left-container {
     position: relative;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .s-right-container {
@@ -62,4 +59,53 @@
 
 .s-right-skill-text {
     color: lightsteelblue;
+}
+
+@media screen and (max-width: 900px) {
+    .s-right-skill {
+        width: 20vw;
+        height: 9vw;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .s {
+        height: 150vh;
+    }
+
+    .s-title {
+        font-size: 30px;
+        height: 10vh;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .s-left-title, .s-right-title {
+        font-size: 20px;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s-left-container, .s-right-container {
+        height: 60vh;
+    }
+
+    .s-right-skill-text {
+        font-size: 10px;
+    }
+
+    .s-right-skill {
+        width: 30vw;
+        height: 20vw;    
+    }
 }
