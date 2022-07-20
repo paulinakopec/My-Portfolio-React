@@ -113,7 +113,7 @@ button:hover {
     }
 
     .c-title {
-        margin-top: 40px;
+        margin: 20px auto;
         font-size: 30px;
         height: 10vh;
         width: 80vw;
