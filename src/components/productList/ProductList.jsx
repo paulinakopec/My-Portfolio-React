@@ -7,7 +7,7 @@ const ProductList = () => {
   return (
     <div className = "pl">
         <div className="pl-texts">
-            <h1 className="pl-title">Works and projects</h1>
+            <h1 className="pl-title">Projects</h1>
             <p className="pl-desc">
                 Websites presented below were built using HTML, CSS, JavaScript and React.
                 For more details, please click on a project to view the website or check out my <a href="https://github.com/paulinakopec" target="_blank" rel="noreferrer" className="pl-github-link">GitHub</a> account.
