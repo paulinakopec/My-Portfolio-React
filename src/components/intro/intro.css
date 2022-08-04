@@ -1,6 +1,6 @@
 .i {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .i-left {
@@ -133,6 +133,11 @@
     .i-left {
         display: flex;
         justify-items: center;
+        max-height: 50vh;
+    }
+
+    .i-right, .i-bg {
+        height: 50vh;
     }
 
     .i-left-wrapper {
