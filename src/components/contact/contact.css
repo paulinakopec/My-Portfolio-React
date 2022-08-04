@@ -97,6 +97,11 @@ button:hover {
     color: lightsteelblue;
     transition: 1s ease-in-out;
 }
+@media screen and (max-width: 1150px) {
+    .c-title {
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .c {
