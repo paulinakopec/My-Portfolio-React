@@ -5,9 +5,9 @@ import './tagCloud.css';
 
 class MyTagCloud extends React.Component {
   render() {
-    const tagName = ['JavaScript', 'HTML', 'CSS', 'VS Code', 'React', 'Git', 'Python',  'Excel', 'SAP']
+    const tagName = ['JavaScript', 'HTML', 'CSS', 'VS Code', 'React', 'Git',  'Excel', 'SAP']
 	  return (
-		<div style={{position: 'absolute', left: '45%', top: '30%', height:'75vh'}}>
+		<div style={{position: 'absolute', left: '45%', top: '25%'}}>
 		  <TagCloud tagName={tagName}></TagCloud>
 		</div>
 	  )

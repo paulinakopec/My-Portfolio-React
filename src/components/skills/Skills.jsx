@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="s-container">
         <div className="s-left">
           <h3 className="s-left-title">Technologies</h3>
-          <div className="s-left-container">
+          <div className="s-left-container" style={{position: "relative"}}>
             <MyTagCloud></MyTagCloud>
           </div>
         </div>
