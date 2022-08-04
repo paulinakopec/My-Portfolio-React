@@ -1,7 +1,8 @@
 .s {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .s-title {
@@ -43,35 +44,42 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    width: 100%;
 }
 
 .s-right-skill {
-    width: 20vw;
-    height: 10vh;
+    width: 40%;
     background-color: white;
     border-radius: 25px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 
 .s-right-skill-text {
     color: lightsteelblue;
+    padding: 5px;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
+    .s-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .s-right-skill {
         width: 20vw;
         height: 9vw;
         margin: 10px;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
     .s {
-        height: 150vh;
+        min-height: 100vh;
     }
 
     .s-title {
@@ -98,14 +106,12 @@
 
     .s-left-container, .s-right-container {
         height: 60vh;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .s-right-skill-text {
         font-size: 10px;
-    }
-
-    .s-right-skill {
-        width: 30vw;
-        height: 20vw;    
     }
 }
