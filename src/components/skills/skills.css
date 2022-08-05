@@ -59,6 +59,11 @@
     padding: 5px;
 }
 
+.s-right-skill:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 .s-right-skill-text {
     color: lightsteelblue;
     padding: 5px;
