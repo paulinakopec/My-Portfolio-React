@@ -22,8 +22,10 @@ const Intro = () => {
                   </div>
                   <p className="i-desc">
                       Self-taught <b>Front-End Developer with a strong financial background</b> in Commercial Controlling in FMCG, Audit in Big4 and Accounting in Automotive company. 
-                      <b> Postgraduate student of Front-End Development with React</b> at Kozminski University. Master and Bachelor graduate of Finance and Accounting course at Warsaw School of Economics. 
-                      Open-minded and a fast learner with <b>good analytical and problem solving skills.</b>
+                      Master and Bachelor graduate of Finance and Accounting course at Warsaw School of Economics. 
+                       <b> Front-End Development with React</b> postgraduate student at Kozminski University starting from October.
+                      Currently <b> expanding my knowledge of React JS.</b>
+                      
                   </p>
                 </div>
                 <div className="i-left-lower-wrapper">
