@@ -119,17 +119,16 @@
     right: 0;
 }
 
-
-
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
-        height: calc(100vh - 75px);
-        max-width: 100%;
+        min-height: 100vh;
+        width: 100%;
     }
 
     .i-img {
-        height: 110%;
+        height: 100%;
+        width: 80%;
     }
 
     .i-name {
@@ -139,12 +138,14 @@
     .i-left {
         display: flex;
         justify-items: center;
-        max-height: 50vh;
-        padding: 0 20px;
+        min-height: 40%;
+        padding: 10px;
+        flex: none;
     }
 
-    .i-right, .i-bg {
-        max-height: 50vh;
+    .i-right {
+        min-height: 50%;
+        flex: none;
     }
 
     .i-left-wrapper {
@@ -159,7 +160,7 @@
     .i-title-item {
         padding: 10px auto;
         margin: auto;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .i-left-lower-wrapper {
