@@ -5,7 +5,7 @@ import Arrow from '../../img/arrow.png'
 
 const Intro = () => {
   return (
-    <div className='i'>
+    <div className='i' id='i'>
         <div className="i-left">
             <div className="i-left-wrapper">
                 <div className="i-left-upper-wrapper">
