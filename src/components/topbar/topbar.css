@@ -1,0 +1,29 @@
+.topbar {
+    height: 75px;
+    position: absolute;
+    z-index: 50;
+}
+
+.topList {
+    padding: 0;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(50px);
+}
+
+.topListItem {
+    padding: 0 10px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.topListItem:hover {
+    color: lightsteelblue;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
