@@ -26,3 +26,11 @@
     position: absolute;
     cursor: pointer;
 }
+
+@media screen and (max-width: 920px) {
+    .t {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
