@@ -101,8 +101,8 @@
 }
 
 .i-img {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     bottom: 0;
@@ -119,11 +119,17 @@
     right: 0;
 }
 
+
+
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
         height: calc(100vh - 75px);
         max-width: 100%;
+    }
+
+    .i-img {
+        height: 110%;
     }
 
     .i-name {
