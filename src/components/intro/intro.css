@@ -1,6 +1,6 @@
 .i {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -107,7 +107,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 101;
 }
 
 .i-bg {
@@ -123,9 +122,8 @@
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
-        height: 100vh;
         max-width: 100%;
-        padding: 20px;
+        padding: 0 20px;
     }
 
     .i-name {
@@ -139,7 +137,7 @@
     }
 
     .i-right, .i-bg {
-        height: 50vh;
+        max-height: 50vh;
     }
 
     .i-left-wrapper {
