@@ -1,6 +1,6 @@
 .i {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -126,11 +126,6 @@
         width: 100%;
     }
 
-    .i-img {
-        height: 100%;
-        width: 80%;
-    }
-
     .i-name {
         font-size: 40px;
     }
@@ -139,13 +134,18 @@
         display: flex;
         justify-items: center;
         min-height: 40%;
-        padding: 10px;
+        padding: 0 10px;
         flex: none;
     }
 
     .i-right {
-        min-height: 50%;
+        height: 50%;
         flex: none;
+    }
+
+    .i-img {
+        height: 100%;
+        width: 80%;
     }
 
     .i-left-wrapper {
