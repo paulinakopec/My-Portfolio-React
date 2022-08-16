@@ -8,8 +8,9 @@ import Ballin from '../src/img/ballin.png';
 export const products = [
     {
         id: 1,
-        img: Nofomo,
-        link: 'https://nofomo.netlify.app/',
+        img: Ballin,
+        link: 'https://ballinblog.netlify.app/',
+
     },
     {
         id: 2,
@@ -18,19 +19,18 @@ export const products = [
     },
     {
         id: 3,
-        img: Ballin,
-        link: 'https://ballinblog.netlify.app/',
-
+        img: Nofomo,
+        link: 'https://nofomo.netlify.app/',
     },
     {
         id: 4,
-        img: CeramicsEcommerceWebsite,
-        link:'https://smallwavesceramics.netlify.app/',
+        img: NetflixClone,
+        link: 'https://dulu.netlify.app/',
     },
     {
         id: 5,
-        img: NetflixClone,
-        link: 'https://dulu.netlify.app/',
+        img: CeramicsEcommerceWebsite,
+        link:'https://smallwavesceramics.netlify.app/',
     },
     {
         id: 6,
