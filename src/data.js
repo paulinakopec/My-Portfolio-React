@@ -19,22 +19,23 @@ export const products = [
     },
     {
         id: 3,
+        img: WeatherWorldWide,
+        link:'https://weatherworldwide.netlify.app/',
+    },
+    {
+        id: 4,
         img: Nofomo,
         link: 'https://nofomo.netlify.app/',
     },
     {
-        id: 4,
+        id: 5,
         img: NetflixClone,
         link: 'https://dulu.netlify.app/',
     },
     {
-        id: 5,
+        id: 6,
         img: CeramicsEcommerceWebsite,
         link:'https://smallwavesceramics.netlify.app/',
     },
-    {
-        id: 6,
-        img: WeatherWorldWide,
-        link:'https://weatherworldwide.netlify.app/',
-    },
+
 ]
